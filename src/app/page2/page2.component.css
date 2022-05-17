@@ -1,0 +1,10 @@
+app-page2 {
+    display: block;
+    border: 2px solid blue;
+    width: 100%;
+    height: calc(100vh - 25px);
+    background-image: url('/assets/bright.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

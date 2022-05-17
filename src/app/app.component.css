@@ -1,0 +1,12 @@
+.menu {
+    border: 2px solid red;
+    width: 100vw;
+    height: 25px;
+    page-transition-tag: menu-tag;
+    contain: paint;
+}
+
+.content {
+    page-transition-tag: content-tag;
+    contain: paint;
+}
