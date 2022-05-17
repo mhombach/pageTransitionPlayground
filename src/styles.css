@@ -4,19 +4,24 @@
     margin: 0px;
 }
 
-::page-transition-outgoing-image(content-tag),
-::page-transition-incoming-image(content-tag) {
+::page-transition-outgoing-image(mymenu),
+::page-transition-incoming-image(mymenu) {
   animation-duration: 5s;
 }
 
+::page-transition-outgoing-image(mycontent),
+::page-transition-incoming-image(mycontent) {
+  animation-duration: 1s;
+}
+
 .content {
-    page-transition-tag: content-tag;
+    page-transition-tag: mycontent;
     contain: paint;
 }
 
 .menu {
     width: 100vw;
     height: 25px;
-    page-transition-tag: menu-tag;
+    page-transition-tag: mymenu;
     contain: paint;
 }
